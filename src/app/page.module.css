@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+
+
+.body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 0 auto;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+.ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.logo{
+  font-family: 'Basic';
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0 2rem;
+}
+
+.simulator{
+  margin: 0 2rem;
+  border-radius: .25rem;
+  font-family: 'Basic';
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  padding: 4rem;
+  margin: 0 auto;
+} 
+
+.quantity,.tax,.time,.result{
+  margin: 1rem;
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.years{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.buttons{
+  width: 100%;
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+ gap: .75rem;
+}
+.buttons button{
+  padding: .50rem ;
+  border: 1px solid #fff;
+  border-radius: .25rem;
+  font-family: 'Roboto';
+  font-size: 1.1rem;
+  background:none;
+  color: #fff;
+  font-weight: 500;
+  transition: all .3s ease-in-out;
+}
+
+.buttons button:hover{
+  background-color: #fff;
+  color: #000;
+  box-shadow:0 0 8px 0 rgba(0,0,0,0.3);
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.total{
+  font-family: 'Roboto';
+  font-weight: 500;
+ 
+}
+
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: .25rem;
+  font-family: 'Basic';
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #ffcc66;
+  cursor: pointer;
+  letter-spacing: .05rem;
+  transition: all .3s ease-in-out;
+}
+
+.submit:hover{
+  background-color: #ffc34c;
+  box-shadow:0 0 8px 0 rgba(0,0,0,0.3);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.daniel{
+  color: #000;
+  transition: all .2s ease-in-out;
+  width: fit-content;
+}
+
+.daniel:hover{
+  color: #ffcc66;
+}
+
+.queijo{
+  color: #000;
+  transition: all .2s ease-in-out;
+  width: fit-content;
+}
+
+.queijo:hover{
+  color: #7cfa7e;
+}
+@media screen and (max-width: 768px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+ 
+  }
+
+ 
+
+  .simulator{
+    position: relative;
+    top: -2rem
+  }
+  
+  .main{
+    padding: 2rem;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+  }
+  .buttons button{
+
+    
+
+  }
+  .form{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .footer p {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form{
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+  
+
+  
+
+  

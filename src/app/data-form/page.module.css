@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/Desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title{
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  padding: 4rem;
+  margin: 0 auto;
+  gap: 1rem;
+} 
+
+.form input, .form textarea, .form button{
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  font-family: "Roboto";
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  outline: none;
+  width: 100%;
+}
+
+.form button{
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.form button:hover{
+  background: #000;
+  color: #fff;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: .25rem;
+  font-family: 'Basic';
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #ffcc66;
+  cursor: pointer;
+  letter-spacing: .05rem;
+  transition: all .3s ease-in-out;
+}
+
+.submit:hover{
+  background-color: #ffc34c;
+  box-shadow:0 0 8px 0 rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        background-image: url('../assets/Mobile.png');
+    }
+
+    .form{
+        width: 90%;
+    }
+}
+  
